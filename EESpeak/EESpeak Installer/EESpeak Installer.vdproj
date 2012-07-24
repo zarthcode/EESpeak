@@ -27,6 +27,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_B56C7F5FF2A249799DA14418D3B9A06A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_EEB643B5CA1843658350493C87B044F2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -162,6 +168,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B56C7F5FF2A249799DA14418D3B9A06A"
+            {
+            "SourcePath" = "8:..\\EESpeak\\License.rtf"
+            "TargetName" = "8:License.rtf"
+            "Tag" = "8:"
+            "Folder" = "8:_9A6C2AF3B7B14457A76DE57101ADB596"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EEB643B5CA1843658350493C87B044F2"
             {
             "SourcePath" = "8:Banner.jpg"
@@ -262,7 +288,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:EESpeak"
         "ProductCode" = "8:{9D3B4D49-1F37-467A-9ED1-CBDA4BF3CB27}"
-        "PackageCode" = "8:{781D4713-B6A1-4917-831E-25D95063DFDD}"
+        "PackageCode" = "8:{7C7629CC-CE7E-40C1-B169-F1CF9685478D}"
         "UpgradeCode" = "8:{CE23A262-6AC3-43ED-B739-5CBA3E35BC3C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -578,7 +604,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:"
+                            "Value" = "8:_B56C7F5FF2A249799DA14418D3B9A06A"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "Sunken"
@@ -726,7 +752,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:"
+                            "Value" = "8:_B56C7F5FF2A249799DA14418D3B9A06A"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "Sunken"

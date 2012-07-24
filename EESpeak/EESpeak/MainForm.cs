@@ -723,14 +723,15 @@ namespace EESpeak
 
 		private void eESpeakHomepageToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-			string targetURL = "http://zarthcode.com/products/eespeak-a-voice-based-lookup-tool/"
+			string targetURL = "http://zarthcode.com/products/eespeak-a-voice-based-lookup-tool/";
 
 			System.Diagnostics.Process.Start(targetURL);
 		}
 
 		private void aboutEESpeakToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-
+			About aboutDialog = new About();
+			aboutDialog.ShowDialog(this);
 		}
 	}
 }
