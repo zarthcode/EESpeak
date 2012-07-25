@@ -1,23 +1,41 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EESpeak", "EESpeak\EESpeak.csproj", "{8BC228E4-230C-474B-803B-29C9AC39CDFA}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EESpeak Installer", "EESpeak Installer\EESpeak Installer.vdproj", "{8DA2CAC1-9F6F-4C0B-964A-402CB19D40C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EESpeak.Tests", "EESpeak.Tests\EESpeak.Tests.csproj", "{24D13521-E650-4A06-A49B-E158769092BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24D13521-E650-4A06-A49B-E158769092BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D13521-E650-4A06-A49B-E158769092BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D13521-E650-4A06-A49B-E158769092BE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{24D13521-E650-4A06-A49B-E158769092BE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{24D13521-E650-4A06-A49B-E158769092BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D13521-E650-4A06-A49B-E158769092BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D13521-E650-4A06-A49B-E158769092BE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{24D13521-E650-4A06-A49B-E158769092BE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{8BC228E4-230C-474B-803B-29C9AC39CDFA}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{8BC228E4-230C-474B-803B-29C9AC39CDFA}.Debug|Any CPU.Build.0 = Debug|x86
+		{8BC228E4-230C-474B-803B-29C9AC39CDFA}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{8BC228E4-230C-474B-803B-29C9AC39CDFA}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{8BC228E4-230C-474B-803B-29C9AC39CDFA}.Release|Any CPU.ActiveCfg = Release|x86
 		{8BC228E4-230C-474B-803B-29C9AC39CDFA}.Release|Any CPU.Build.0 = Release|x86
+		{8BC228E4-230C-474B-803B-29C9AC39CDFA}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{8BC228E4-230C-474B-803B-29C9AC39CDFA}.Release|Mixed Platforms.Build.0 = Release|x86
 		{8DA2CAC1-9F6F-4C0B-964A-402CB19D40C3}.Debug|Any CPU.ActiveCfg = Debug
+		{8DA2CAC1-9F6F-4C0B-964A-402CB19D40C3}.Debug|Mixed Platforms.ActiveCfg = Debug
 		{8DA2CAC1-9F6F-4C0B-964A-402CB19D40C3}.Release|Any CPU.ActiveCfg = Release
 		{8DA2CAC1-9F6F-4C0B-964A-402CB19D40C3}.Release|Any CPU.Build.0 = Release
+		{8DA2CAC1-9F6F-4C0B-964A-402CB19D40C3}.Release|Mixed Platforms.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
