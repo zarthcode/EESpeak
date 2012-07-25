@@ -30,7 +30,7 @@ namespace EESpeak.Tests
             };
 
             foreach(Tuple<double, string> value in values)
-                Assert.AreEqual(value.Item2, UnitConverter.ToEngineeringNotation(value.Item1));
+                Assert.AreEqual(value.Item2, value.Item1.ToEngineeringNotation());
             
         }
     }

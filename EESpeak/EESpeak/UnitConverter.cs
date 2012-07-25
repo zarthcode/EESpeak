@@ -7,7 +7,7 @@ namespace EESpeak
 {
     public static class UnitConverter
     {
-        public static string ToEngineeringNotation(double d)
+        public static string ToEngineeringNotation(this double d)
         {
             double exp = Math.Log10(Math.Abs(d));
             if (Math.Abs(d) >= 1)
@@ -92,7 +92,7 @@ namespace EESpeak
             }
         }
 
-        public static string ToEngineeringNotationSpeech(double d)
+        public static string ToEngineeringNotationSpeech(this double d)
         {
             double exp = Math.Log10(Math.Abs(d));
             if (Math.Abs(d) >= 1)

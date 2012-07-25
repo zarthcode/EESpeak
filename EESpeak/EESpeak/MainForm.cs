@@ -396,10 +396,9 @@ namespace EESpeak
             Renard *= Math.Pow(10, Multiplier);
 
             string[] result = { 
-                UnitConverter.ToEngineeringNotation(Renard) + unit, 
+                Renard.ToEngineeringNotation() + unit, 
                 Renard + "," + UnitConverter.GetSpokenUnit(unit),
-                UnitConverter.ToEngineeringNotationSpeech(Renard) + "-" + 
-                    UnitConverter.GetSpokenUnit(unit) };
+                Renard.ToEngineeringNotationSpeech() + "-" + UnitConverter.GetSpokenUnit(unit) };
 
             return result;
         }
@@ -446,7 +445,11 @@ namespace EESpeak
                 tolerance += GetTolerance(fourth) + "%";
             }
 
-            string[] result = { UnitConverter.ToEngineeringNotation(retValue) + unit + tolerance, retValue + UnitConverter.GetSpokenUnit(unit) + "," + tolerance, UnitConverter.ToEngineeringNotationSpeech(retValue) + "-" + UnitConverter.GetSpokenUnit(unit) + "," + tolerance };
+            string[] result = { 
+                retValue.ToEngineeringNotation() + unit + tolerance,
+                retValue + UnitConverter.GetSpokenUnit(unit) + "," + tolerance, 
+                retValue.ToEngineeringNotationSpeech() + "-" + 
+                    UnitConverter.GetSpokenUnit(unit) + "," + tolerance };
 
             return result;
         }
