@@ -50,5 +50,10 @@ namespace EESpeak
 			versionLabel.Text = "Version " + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
 
 		}
+
+        private void aboutOK_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
 	}
 }
