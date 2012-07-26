@@ -71,3 +71,7 @@ ipch
 CVS
 .CVS
 .cvs
+
+# NCrunch Cache #
+#################
+*.crunchsolution.cache
