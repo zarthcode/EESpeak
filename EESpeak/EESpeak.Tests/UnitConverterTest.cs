@@ -26,7 +26,16 @@ namespace EESpeak.Tests
                 new Tuple<double, string>(1e15, "1P"),
                 new Tuple<double, string>(1e18, "1E"),
                 new Tuple<double, string>(1e21, "1Z"),
-                new Tuple<double, string>(1e24, "1Y")
+                new Tuple<double, string>(1e24, "1Y"),
+                new Tuple<double, string>(.510, "5.1m"),
+                new Tuple<double, string>(.0051, "5.1μ"),
+                new Tuple<double, string>(5100, "5.1n"),
+                new Tuple<double, string>(51000, "5.1p"),
+                new Tuple<double, string>(1e6, "1f"),
+                new Tuple<double, string>(1e8, "100f"),
+                new Tuple<double, string>(1e9, "1a"),
+                new Tuple<double, string>(1e12, "1z"),
+                new Tuple<double, string>(1e15, "1y")
             };
 
             foreach(Tuple<double, string> value in values)
