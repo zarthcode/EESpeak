@@ -75,3 +75,7 @@ CVS
 # NCrunch Cache #
 #################
 *.crunchsolution.cache
+
+# Folders starting with underscore. #
+#####################################
+_*
