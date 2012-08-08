@@ -423,15 +423,18 @@ namespace EESpeak
             retValue += (GetDigit(first) * radix);
 
             // Multiplier
+			double multiplier = ((unit == "H")||(unit == "F")) ? -6 : 0;
+
+
             if (fifth != "none")
             {
-                retValue *= Math.Pow(10, GetDigit(fourth));
+                multiplier += GetDigit(fourth);
             }
             else
             {
-                retValue *= Math.Pow(10, GetDigit(third));
+				multiplier += GetDigit(third);
             }
-
+			 retValue *= Math.Pow(10, multiplier);
             // Unit
 
             // Tolerance
